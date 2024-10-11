@@ -9,7 +9,52 @@
     <header>
         <h1>Formulários</h1>
         <a href="index.html">Home</a>
-    </header>
+    </header> <br>
+    <form >
+        <label for="text">Nome</label>
+        <input id="text" type="text" placeholder="Seu nome" /> 
+        <br>
+        <label for="email" >E-mail</label>
+        <input id="email" type="email" placeholder="E-mail" />
+        <br>
+        <label for="tel">Telefone</label>
+        <input id="tel" type="tel" placeholder="Seu telefone" />
+        <br>
+        <label for="number">Idade</label>
+        <input id="number" type="number" min="7" placeholder="Idade"/>  *Idade minima 7 anos <br>
+        <input type="file" /> <br>
+        <input type="color" /> <br>
+        <input type="checkbox" id="checkbox-termos" /><label for="checkbox-termos">Aceito os termos de uso</label>
+        <p>
+            Qual sua cor favorita?
+        </p>
+        <input type="radio" name="cor-favorita" id="cor-vermelha" /><label for="cor-vermelha">Vermelho</label>
+        <input type="radio" name="cor-favorita" id="cor-verde"/><label for="cor-verde">Verde</label>
+        <input type="radio" name="cor-favorita" id="cor-azul"/><label for="cor-azul">Azul</label>
+        <br>
+        <label >Qual seu filme favorito?</label>
+        <select>
+            <option>Filme A</option>
+            <option>Filme B</option>
+            <option>Filme C</option>
+        </select>
+        <br>
+        <label >Carro favorito</label>
+        <select multiple>
+            <option>Carro A</option>
+            <option>Carro B</option>
+            <option>Carro C</option>
+        </select>
+        <br>
+        <textarea></textarea>`
+        <br>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar 
+        </button>
+    </form>
     
 </body>
 </html>
